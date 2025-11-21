@@ -4,9 +4,9 @@ export default function SidebarLeft() {
       <div className="text-center">
         <div className="bg-[#0A66C2] p-4 rounded">
           <img
-            src="/avatar.jpg"
+            src="/avatarHombre.jpg"
             alt="Profile"
-            className="w-24 h-24 rounded-full border-2 border-white mx-auto"
+            className="w-24 h-24 object-cover rounded-full border-2 border-white mx-auto"
           />
         </div>
 
