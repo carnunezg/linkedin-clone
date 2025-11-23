@@ -4,6 +4,13 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import SidebarLeft from "@/components/SidebarLeft";
 import Feed from "@/components/Feed";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "700"], // ajusta según lo que uses
+  variable: "--font-roboto", // para usar como CSS variable
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
