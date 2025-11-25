@@ -10,9 +10,9 @@ export default function SidebarLeft() {
           />
         </div>
 
-        <h2 className="font-bold mt-2">Carlos Luis Núñez</h2>
+        <h2 className="font-bold mt-2">Carlos L. Núñez Gómez</h2>
         <p className="text-sm text-gray-500 text">
-          Desarrollador Frontend | Next.js
+          Desarrollador Front-End | Next.js
         </p>
       </div>
       <hr className="my-4" />
